@@ -158,9 +158,11 @@ export default function Home() {
             </a>
             <a href="https://discord.com/users/lightt7565" target="_blank"
               className="flex items-center gap-3 px-8 py-4 bg-slate-50 text-slate-900 border border-slate-200 rounded-2xl font-bold hover:bg-slate-100 hover:scale-105 transition-all duration-300 h-[72px]">
-              <img src="https://cdn3.emoji.gg/emojis/222991-discordlogo.gif"
-                className="w-full h-full object-contain"
-                alt="discordlogo" />
+              <div className="w-10 h-10 flex items-center justify-center">
+                <img src="https://cdn3.emoji.gg/emojis/222991-discordlogo.gif"
+                  className="w-full h-full object-contain"
+                  alt="discordlogo" />
+              </div>
               <span> Mon Discord</span>
             </a>
           </div>
