@@ -157,8 +157,10 @@ export default function Home() {
               💼 Mon profil LinkedIn
             </a>
             <a href="https://discord.com/users/lightt7565" target="_blank"
-              className="flex items-center gap-3 px-8 py-4 bg-slate-50 text-slate-900 border border-slate-200 rounded-2xl font-bold hover:bg-slate-100 hover:scale-105 transition-all duration-300">
-              <img src="https://cdn3.emoji.gg/emojis/222991-discordlogo.gif" width="64px" height="64px" alt="discordlogo" />
+              className="flex items-center gap-3 px-8 py-4 bg-slate-50 text-slate-900 border border-slate-200 rounded-2xl font-bold hover:bg-slate-100 hover:scale-105 transition-all duration-300 h-[72px]">
+              <img src="https://cdn3.emoji.gg/emojis/222991-discordlogo.gif"
+                className="w-full h-full object-contain"
+                alt="discordlogo" />
               <span> Mon Discord</span>
             </a>
           </div>
