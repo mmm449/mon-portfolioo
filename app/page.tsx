@@ -152,15 +152,14 @@ export default function Home() {
               className="px-8 py-4 bg-blue-600 text-white rounded-2xl font-bold shadow-xl shadow-blue-500/20 hover:bg-blue-700 hover:scale-105 transition-all duration-300">
               📧 Me contacter par Email
             </a>
-            <a href="https://lindekin.com" target="_blank"
+            <a href="https://linkedin.com" target="_blank"
               className="px-8 py-4 bg-slate-50 text-slate-900 border border-slate-200 rounded-2xl font-bold hover:bg-slate-100 hover:scale-105 transition-all duration-300">
               💼 Mon profil LinkedIn
             </a>
             <a href="https://discord.com/users/lightt7565" target="_blank"
-              className="px-8 py-4 bg-[#5865F2] text-white rounded-2xl font-bold hover:bg-[#4752C4] hover:scale-105 transition-all duration-300">
-              <a href="https://emoji.gg/emoji/222991-discordlogo">
-                <img src="https://cdn3.emoji.gg/emojis/222991-discordlogo.gif" width="64px" height="64px" alt="discordlogo"/>
-              </a>
+              className="flex-items center gap-3 px-8 py-4 bg-[#5865F2] text-white rounded-2xl font-bold hover:bg-[#4752C4] hover:scale-105 transition-all duration-300">
+              <img src="https://cdn3.emoji.gg/emojis/222991-discordlogo.gif" width="24px" height="24px" alt="discordlogo" />
+              <span> Mon Discord</span>
             </a>
           </div>
         </div>
