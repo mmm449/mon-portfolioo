@@ -159,7 +159,7 @@ export default function Home() {
               <span>Mon profil LinkedIn</span>
             </a>
             <a href="https://discord.com/users/lightt7565" target="_blank" rel="noreferrer"
-              className="flex flex-col sm:flex-row items-center justify-center gap-2 px-8 py-4 bg-blue-600 text-white rounded-2xl font-bold shadow-xl shadow-blue-500/20 hover:bg-blue-700 hover:scale-105 transition-all duration-300">
+              className="flex items-center justify-center gap-2 px-8 py-4 bg-blue-600 text-white rounded-2xl font-bold shadow-xl shadow-blue-500/20 hover:bg-blue-700 hover:scale-105 transition-all duration-300 w-full sm:w-64">
               <img src="https://cdn3.emoji.gg/emojis/222991-discordlogo.gif"
                 className="w-6 h-6 object-contain"
                 alt="discordlogo" />
