@@ -35,7 +35,7 @@ export default function Home() {
             Disponible pour de nouveaux projets !
           </h2>
           <h1 className="text-5xl md:text-7xl font-black text-slate-900 leading-tight">
-            Salut, je suis Magomed <span className="text-blue-500 border-b-4 border-blue-100">Dev Web</span>
+            Salut, je suis Magomed <span className="text-blue-500 border-b-4 border-blue-100">Developpeur Web</span>
           </h1>
           <p className="text-lg text-slate-600 max-w-lg leading-relaxed">
             Débutant Développeur Web Passionné | Apprenant Angular, React & Next.js.
