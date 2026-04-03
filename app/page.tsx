@@ -10,12 +10,12 @@ const Player = dynamic(
 );
 
 export default function Home() {
-  
+
   const [projets, setProjets] = useState<any[]>([]);
 
   useEffect(() => {
     async function fetchProjets() {
-      
+
       const { data, error } = await supabase.from('Projets').select('*');
       if (!error && data) {
         setProjets(data);
@@ -52,49 +52,49 @@ export default function Home() {
             <Player
               autoplay
               loop
-              src="/animation.json" 
+              src="/animation.json"
               style={{ height: '80%', width: '80%' }}
             />
           </div>
         </div>
       </main>
 
-{/* SECTION COMPETENCES */}
-<section id="competences" className="py-24 bg-white">
-  <div className="max-w-6xl mx-auto px-6">
-    <div className="text-center mb-16">
-      <h2 className="text-4xl font-black text-slate-900 mb-4">Mes Compétences</h2>
-    </div>
-    
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-      
-      {/* ANGULAR */}
-      <div className="group p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:border-red-200 hover:shadow-2xl hover:shadow-red-500/20 transition-all duration-300 cursor-default">
-        <div className="w-14 h-14 bg-red-100 text-red-600 rounded-2xl flex items-center justify-center text-2xl mb-6 transition-all duration-300 group-hover:bg-red-600 group-hover:text-white group-hover:scale-110">
-          🅰️
-        </div>
-        <h3 className="text-xl font-bold text-slate-900 group-hover:text-red-700 transition-colors">Angular</h3>
-      </div>
+      {/* SECTION COMPETENCES */}
+      <section id="competences" className="py-24 bg-white">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-black text-slate-900 mb-4">Mes Compétences</h2>
+          </div>
 
-      {/* REACT */}
-      <div className="group p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:border-purple-200 hover:shadow-2xl hover:shadow-purple-300/20 transition-all duration-300 cursor-default">
-        <div className="w-14 h-14 bg-purple-100 text-purple-600 rounded-2xl flex items-center justify-center text-2xl mb-6 transition-all duration-300 group-hover:bg-purple-600 group-hover:text-white group-hover:scale-110">
-          ⚛️
-        </div>
-        <h3 className="text-xl font-bold text-slate-900 group-hover:text-purple-700 transition-colors">React</h3>
-      </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 
-      {/* NEXT JS */}
-      <div className="group p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:border-slate-300 hover:shadow-2xl hover:shadow-slate-900/10 transition-all duration-300 cursor-default">
-        <div className="w-14 h-14 bg-slate-100 text-slate-900 rounded-2xl flex items-center justify-center text-2xl mb-6 transition-all duration-300 group-hover:bg-slate-900 group-hover:text-white group-hover:scale-110">
-          N
-        </div>
-        <h3 className="text-xl font-bold text-slate-900 group-hover:text-slate-900 transition-colors">Next JS</h3>
-      </div>
+            {/* ANGULAR */}
+            <div className="group p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:border-red-200 hover:shadow-2xl hover:shadow-red-500/20 transition-all duration-300 cursor-default">
+              <div className="w-14 h-14 bg-red-100 text-red-600 rounded-2xl flex items-center justify-center text-2xl mb-6 transition-all duration-300 group-hover:bg-red-600 group-hover:text-white group-hover:scale-110">
+                🅰️
+              </div>
+              <h3 className="text-xl font-bold text-slate-900 group-hover:text-red-700 transition-colors">Angular</h3>
+            </div>
 
-    </div>
-  </div>
-</section>
+            {/* REACT */}
+            <div className="group p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:border-purple-200 hover:shadow-2xl hover:shadow-purple-300/20 transition-all duration-300 cursor-default">
+              <div className="w-14 h-14 bg-purple-100 text-purple-600 rounded-2xl flex items-center justify-center text-2xl mb-6 transition-all duration-300 group-hover:bg-purple-600 group-hover:text-white group-hover:scale-110">
+                ⚛️
+              </div>
+              <h3 className="text-xl font-bold text-slate-900 group-hover:text-purple-700 transition-colors">React</h3>
+            </div>
+
+            {/* NEXT JS */}
+            <div className="group p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:border-slate-300 hover:shadow-2xl hover:shadow-slate-900/10 transition-all duration-300 cursor-default">
+              <div className="w-14 h-14 bg-slate-100 text-slate-900 rounded-2xl flex items-center justify-center text-2xl mb-6 transition-all duration-300 group-hover:bg-slate-900 group-hover:text-white group-hover:scale-110">
+                N
+              </div>
+              <h3 className="text-xl font-bold text-slate-900 group-hover:text-slate-900 transition-colors">Next JS</h3>
+            </div>
+
+          </div>
+        </div>
+      </section>
 
       {/* SECTION PROJETS */}
       <section id="projets" className="py-24 bg-slate-50">
@@ -106,13 +106,13 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             {projets && projets.map((projet: any) => (
               <div key={projet.title} className="group relative bg-white rounded-3xl overflow-hidden border border-slate-200 hover:shadow-2xl transition-all duration-500">
-                
+
                 {/* Image du projet */}
                 <div className="aspect-video relative overflow-hidden flex items-center justify-center bg-slate-100">
                   {projet.image_url ? (
-                    <img 
-                      src={projet.image_url} 
-                      alt={projet.title} 
+                    <img
+                      src={projet.image_url}
+                      alt={projet.title}
                       className="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500"
                     />
                   ) : (
@@ -126,9 +126,9 @@ export default function Home() {
                 <div className="p-8">
                   <h3 className="text-2xl font-bold text-slate-900 mb-3">{projet.title}</h3>
                   <p className="text-slate-600 mb-6 line-clamp-3">{projet.description}</p>
-                  <a 
-                    href={projet.git_hub} 
-                    target="_blank" 
+                  <a
+                    href={projet.git_hub}
+                    target="_blank"
                     className={`inline-block px-6 py-2.5 text-white font-bold rounded-xl transition-all duration-300 text-sm ${projet.title?.includes('Natur') ? 'bg-emerald-600 hover:bg-emerald-700' : 'bg-orange-600 hover:bg-orange-700'}`}
                   >
                     Voir le projet →
@@ -136,6 +136,26 @@ export default function Home() {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/*Section Contact*/}
+      <section id="contact" className="py-24 bg-white border-t border-slate-100">
+        <div className="max-w-4xl mx-auto px-6 text-center">
+          <h2 className="text-4xl font-black text-slate-900 mb-6">Un projet ? Contacter moi !</h2>
+          <p className="text-lg text-slate-600 mb-10 max-w-2xl mx-auto">
+            Je suis actuellement à la recherche de nouvelles opportunités
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify center items-center">
+            <a href="mailto:maigovmagomed357@gmail.com"
+              className="px-8 py-4 bg-blue-600 text-white rounded-2xl font-bold shadow-xl shadow-blue-500/20 hover:bg-blue-700 hover:scale-105 transition-all duration-300">
+              📧 Me contacter par Email
+            </a>
+            <a href="https://lindekin.com" target="_blank"
+              className="px-8 py-4 bg-slate-50 text-slate-900 border border-slate-200 rounded-2xl font-bold hover:bg-slate-100 hover:scale-105 transition-all duration-300">
+              💼 Mon profil LinkedIn
+            </a>
           </div>
         </div>
       </section>

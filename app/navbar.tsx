@@ -9,7 +9,7 @@ export default function Navbar() {
                 <a href="#projets" className="hover:text-blue-600 transition">Projets</a>
                 <a href="#contact" className="hover:text-blue-600 transition">Contacts</a>
             </div>
-        </nav>    
+        </nav>
     )
 
 }
