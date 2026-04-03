@@ -151,12 +151,12 @@ export default function Home() {
             <a href="mailto:maigovmagomed357@gmail.com"
               className="flex items-center justify-center gap-2 px-8 py-4 bg-blue-600 text-white rounded-2xl font-bold shadow-xl shadow-blue-500/20 hover:bg-blue-700 hover:scale-105 transition-all duration-300">
               <span>📧</span>
-              <span>Me contacter par Email</span>
+              <span>Mon Email</span>
             </a>
             <a href="https://linkedin.com" target="_blank"
               className="flex items-center justify-center gap-2 px-8 py-4 bg-slate-50 text-slate-900 border border-slate-200 rounded-2xl font-bold hover:bg-slate-100 hover:scale-105 transition-all duration-300">
               <span>💼</span>
-              <span>Mon profil LinkedIn</span>
+              <span>Mon LinkedIn</span>
             </a>
             <a href="https://discord.com/users/lightt7565" target="_blank" rel="noreferrer"
               className="flex items-center justify-center gap-2 px-8 py-4 bg-blue-600 text-white rounded-2xl font-bold shadow-xl shadow-blue-500/20 hover:bg-blue-700 hover:scale-105 transition-all duration-300 w-full sm:w-64">
