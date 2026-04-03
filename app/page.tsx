@@ -143,24 +143,26 @@ export default function Home() {
       {/*Section Contact*/}
       <section id="contact" className="py-24 bg-white border-t border-slate-100">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <h2 className="text-4xl font-black text-slate-900 mb-6">Un projet ? Contacter moi !</h2>
+          <h2 className="text-4xl font-black text-slate-900 mb-6">Un projet ? Contactez-moi !</h2>
           <p className="text-lg text-slate-600 mb-10 max-w-2xl mx-auto">
             Je suis actuellement à la recherche de nouvelles opportunités
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify center items-center">
+          <div className="flex flex-wrap justify-center items-stretch gap-4">
             <a href="mailto:maigovmagomed357@gmail.com"
-              className="px-8 py-4 bg-blue-600 text-white rounded-2xl font-bold shadow-xl shadow-blue-500/20 hover:bg-blue-700 hover:scale-105 transition-all duration-300">
-              📧 Me contacter par Email
+              className="flex items-center justify-center gap-2 px-8 py-4 bg-blue-600 text-white rounded-2xl font-bold shadow-xl shadow-blue-500/20 hover:bg-blue-700 hover:scale-105 transition-all duration-300">
+              <span>📧</span>
+              <span>Me contacter par Email</span>
             </a>
             <a href="https://linkedin.com" target="_blank"
-              className="px-8 py-4 bg-slate-50 text-slate-900 border border-slate-200 rounded-2xl font-bold hover:bg-slate-100 hover:scale-105 transition-all duration-300">
-              💼 Mon profil LinkedIn
+              className="flex items-center justify-center gap-2 px-8 py-4 bg-slate-50 text-slate-900 border border-slate-200 rounded-2xl font-bold hover:bg-slate-100 hover:scale-105 transition-all duration-300">
+              <span>💼</span>
+              <span>Mon profil LinkedIn</span>
             </a>
-            <a href="https://discord.com/users/lightt7565" target="_blank"
-              className="px-8 py-4 bg-blue-600 text-white rounded-2xl font-bold shadow-xl shadow-blue-500/20 hover:bg-blue-700 hover:scale-105 transition-all duration-300">
-                <img src="https://cdn3.emoji.gg/emojis/222991-discordlogo.gif"
-                  className="max-w-full max-h-full object-contain"
-                  alt="discordlogo" />
+            <a href="https://discord.com/users/lightt7565" target="_blank" rel="noreferrer"
+              className="flex flex-col sm:flex-row items-center justify-center gap-2 px-8 py-4 bg-blue-600 text-white rounded-2xl font-bold shadow-xl shadow-blue-500/20 hover:bg-blue-700 hover:scale-105 transition-all duration-300">
+              <img src="https://cdn3.emoji.gg/emojis/222991-discordlogo.gif"
+                className="w-6 h-6 object-contain"
+                alt="discordlogo" />
               <span>Mon Discord</span>
             </a>
           </div>
