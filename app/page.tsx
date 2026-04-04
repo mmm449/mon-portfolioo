@@ -147,21 +147,21 @@ export default function Home() {
           <p className="text-lg text-slate-600 mb-10 max-w-2xl mx-auto">
             Je suis actuellement à la recherche de nouvelles opportunités
           </p>
-          <div className="flex flex-wrap justify-center items-stretch gap-4">
+          <div className="flex flex-wrap justify-center items-center gap-4">
             <a href="mailto:maigovmagomed357@gmail.com"
-              className="flex items-center justify-center gap-2 px-8 py-4 bg-blue-600 text-white rounded-2xl font-bold shadow-xl shadow-blue-500/20 hover:bg-blue-700 hover:scale-105 transition-all duration-300">
-              <span>📧</span>
+              className="flex items-center justify-center gap-3 w-30 h-14 bg-blue-600 text-white rounded-2xl font-bold shadow-xl shadow-blue-500/20 hover:bg-blue-700 hover:scale-105 transition-all duration-300 whitespace-nowrap">
+              <span className="text-xl">📧</span>
               <span>Mon Email</span>
             </a>
-            <a href="https://linkedin.com" target="_blank"
-              className="flex items-center justify-center gap-2 px-8 py-4 bg-slate-50 text-slate-900 border border-slate-200 rounded-2xl font-bold hover:bg-slate-100 hover:scale-105 transition-all duration-300">
-              <span>💼</span>
+            <a href="https://linkedin.com" target="_blank" rel="noreferrer"
+              className="flex items-center justify-center gap-3 w-30 h-14 bg-slate-50 text-slate-900 border border-slate-200 rounded-2xl font-bold hover:bg-slate-100 hover:scale-105 transition-all duration-300 whitespace-nowrap">
+              <span className="text-xl">💼</span>
               <span>Mon LinkedIn</span>
             </a>
             <a href="https://discord.com/users/lightt7565" target="_blank" rel="noreferrer"
-              className="flex items-center justify-center gap-2 px-8 py-4 bg-blue-600 text-white rounded-2xl font-bold shadow-xl shadow-blue-500/20 hover:bg-blue-700 hover:scale-105 transition-all duration-300 w-full sm:w-64">
+              className="flex items-center justify-center gap-3 w-30 h-14 bg-blue-600 text-white rounded-2xl font-bold shadow-xl shadow-blue-500/20 hover:bg-blue-700 hover:scale-105 transition-all duration-300 whitespace-nowrap">
               <img src="https://cdn3.emoji.gg/emojis/222991-discordlogo.gif"
-                className="w-[1.2em] h-[1.2em] object-contain inline-block"
+                className="w-6 h-6 object-contain inline-block"
                 alt="discordlogo" />
               <span>Mon Discord</span>
             </a>
