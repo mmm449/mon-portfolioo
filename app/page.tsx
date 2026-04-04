@@ -149,17 +149,17 @@ export default function Home() {
           </p>
           <div className="flex flex-wrap justify-center items-center gap-4">
             <a href="mailto:maigovmagomed357@gmail.com"
-              className="flex items-center justify-center gap-3 w-30 h-14 bg-blue-600 text-white rounded-2xl font-bold shadow-xl shadow-blue-500/20 hover:bg-blue-700 hover:scale-105 transition-all duration-300 whitespace-nowrap">
+              className="flex items-center justify-center gap-3 w-90 h-14 bg-blue-600 text-white rounded-2xl font-bold shadow-xl shadow-blue-500/20 hover:bg-blue-700 hover:scale-105 transition-all duration-300 whitespace-nowrap">
               <span className="text-xl">📧</span>
               <span>Mon Email</span>
             </a>
             <a href="https://linkedin.com" target="_blank" rel="noreferrer"
-              className="flex items-center justify-center gap-3 w-30 h-14 bg-slate-50 text-slate-900 border border-slate-200 rounded-2xl font-bold hover:bg-slate-100 hover:scale-105 transition-all duration-300 whitespace-nowrap">
+              className="flex items-center justify-center gap-3 w-90 h-14 bg-slate-50 text-slate-900 border border-slate-200 rounded-2xl font-bold hover:bg-slate-100 hover:scale-105 transition-all duration-300 whitespace-nowrap">
               <span className="text-xl">💼</span>
               <span>Mon LinkedIn</span>
             </a>
             <a href="https://discord.com/users/lightt7565" target="_blank" rel="noreferrer"
-              className="flex items-center justify-center gap-3 w-30 h-14 bg-blue-600 text-white rounded-2xl font-bold shadow-xl shadow-blue-500/20 hover:bg-blue-700 hover:scale-105 transition-all duration-300 whitespace-nowrap">
+              className="flex items-center justify-center gap-3 w-90 h-14 bg-blue-600 text-white rounded-2xl font-bold shadow-xl shadow-blue-500/20 hover:bg-blue-700 hover:scale-105 transition-all duration-300 whitespace-nowrap">
               <img src="https://cdn3.emoji.gg/emojis/222991-discordlogo.gif"
                 className="w-6 h-6 object-contain inline-block"
                 alt="discordlogo" />
