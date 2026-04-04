@@ -150,7 +150,7 @@ export default function Home() {
           <div className="flex flex-wrap justify-center items-center gap-4">
             <a href="mailto:maigovmagomed357@gmail.com"
               className="flex items-center justify-center gap-3 w-60 h-14 bg-blue-600 text-white rounded-2xl font-bold shadow-xl shadow-blue-500/20 hover:bg-blue-700 hover:scale-105 transition-all duration-300 whitespace-nowrap">
-              <span className="flex items-center justify-center w-8 h-8 text-xl -mt-1">📧</span>
+              <span className="flex items-center justify-center w-8 h-8 text-xl">📧</span>
               <span className="flex items-center">Mon Email</span>
             </a>
             <a href="https://linkedin.com" target="_blank" rel="noreferrer"
