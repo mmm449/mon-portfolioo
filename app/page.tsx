@@ -150,12 +150,12 @@ export default function Home() {
           <div className="flex flex-wrap justify-center items-center gap-4">
             <a href="mailto:maigovmagomed357@gmail.com"
               className="flex items-center justify-center gap-3 w-50 h-14 bg-blue-600 text-white rounded-2xl font-bold shadow-xl shadow-blue-500/20 hover:bg-blue-700 hover:scale-105 transition-all duration-300 whitespace-nowrap">
-              <span className="text-xl">📧</span>
+              <span className="flex items-center justify-center w-7 h-7 text-xl leading-none">📧</span>
               <span>Mon Email</span>
             </a>
             <a href="https://linkedin.com" target="_blank" rel="noreferrer"
               className="flex items-center justify-center gap-3 w-50 h-14 bg-slate-50 text-slate-900 border border-slate-200 rounded-2xl font-bold hover:bg-slate-100 hover:scale-105 transition-all duration-300 whitespace-nowrap">
-              <span className="text-xl">💼</span>
+              <span className="flex items-center justify-center w-14 h-14 text-xl leading-none">💼</span>
               <span>Mon LinkedIn</span>
             </a>
             <a href="https://discord.com/users/lightt7565" target="_blank" rel="noreferrer"
