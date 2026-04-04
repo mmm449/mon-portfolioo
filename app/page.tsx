@@ -161,7 +161,7 @@ export default function Home() {
             <a href="https://discord.com/users/lightt7565" target="_blank" rel="noreferrer"
               className="flex items-center justify-center gap-3 w-60 h-14 bg-blue-600 text-white rounded-2xl font-bold shadow-xl shadow-blue-500/20 hover:bg-blue-700 hover:scale-105 transition-all duration-300 whitespace-nowrap">
               <img src="https://cdn3.emoji.gg/emojis/222991-discordlogo.gif"
-                className="w-18 h-18 object-contain inline-block -mr-2"
+                className="w-18 h-18 object-contain inline-block -mr-4"
                 alt="discordlogo" />
               <span>Mon Discord</span>
             </a>
