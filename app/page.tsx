@@ -99,7 +99,7 @@ export default function Home() {
       {/* SECTION PROJETS */}
       <section id="projets" className="py-24 bg-slate-50">
         <div className="max-w-6xl mx-auto px-6">
-          <div className="mb-16 text-center md:text-left">
+          <div className="text-center mb-16">
             <h2 className="text-4xl font-black text-slate-900 mb-4">Projets Récents</h2>
           </div>
 
